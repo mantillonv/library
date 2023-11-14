@@ -1,0 +1,14 @@
+:root {
+    --font-family: "Merriweather", sans-serif;
+    --font-color: #faf9f6;
+    --main-color: #d5d5d5;
+    --sub-color: #6d7993;
+    --accent-color: #96858f;
+}
+
+body {
+    display: grid;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    background-color: var(--main-color);
+}
