@@ -1,7 +1,7 @@
 # library
 TOP JavaScript Course Library with HTML, CSS And JS. 
 
-"Let's extend the *Book* example from the previous lesson and turn it into a small **Library** app.
+Let's extend the *Book* example from the previous lesson and turn it into a small **Library** app.
 
 - Set up a HTML/CSS and JS skeleton.
 - All book objects are to be stored in a simple array.
