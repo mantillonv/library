@@ -7,8 +7,146 @@
 }
 
 body {
-    display: grid;
     font-family: var(--font-family);
     color: var(--font-color);
     background-color: var(--main-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: 8vh;
+}
+
+.title-color {
+    color: #0049B7;
+    padding: 0;
+}
+
+h1 img {
+    height: 7vh;
+}
+
+.start {
+    width: 10vw;
+    height: 5vh; 
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--accent-color);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-left: 45vw;
+    margin-top: 4vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.start:hover {
+    background-color: #556174;
+}
+
+#book-form {
+    display: none;
+    font-size: 26px;
+    color: var(--accent-color);
+    max-width: 400px;
+    margin: 8vh auto;
+    background-color: #fff;
+    padding: 20px;
+    padding-right: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.primary-btn {
+    background-color: #0049B7;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5.5vw;
+}
+
+.primary-btn:hover {
+    background-color: #003575;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: var(--accent-color);
+}
+
+.book-table-container {
+    width: 100%;
+    max-height: 346px;
+    overflow-y: auto;
+    background-color: #fff; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2vh;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0px;
+}
+
+.book-table tr {
+    color: var(--accent-color);
+}
+
+.book-table th, .book-table td, .book-table tbody {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    height: 40px;
+}
+
+.book-table th, .book-table tbody {
+    background-color: #f2f2f2;
+}
+
+a {
+    color:#0049B7;
 }

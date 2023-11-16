@@ -8,6 +8,43 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
 </head>
 <body>
-    
+    <div class="container">
+        <h1 class="title"><img src="./images/logo.png" alt="logo"><span class="title-color">Book</span>List</h1>
+        <div class="book-table-container">
+            <table class="book-table">
+                <thead>
+                    <tr>
+                        <th>Author</th>
+                        <th>Title</th>
+                        <th># of Pages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+        <button class="start">New +</button>
+        <form id="book-form">
+            <div class="form-group">
+                <label for="author"><b>Author</b> <input type="text" id="author" class="form-control" required/></label>
+            </div>
+            <div class="form-group">
+                <label for="title"><b>Title</b> <input type="text" id="title" class="form-control" required/></label>
+            </div>
+            <div class="form-group">
+                <label for="pages"><b># of Pages</b> <input type="text" id="pages" class="form-control"/></label>
+            </div>
+            <input type="submit" value="Add Book" class="primary-btn">
+        </form>
+        </div>
+        <div class="footer">
+            <p>2023 mantillonv for <a href="https://www.theodinproject.com">The Odin Project</a></p>
+        </div>
+    </div>
 </body>
 </html>
